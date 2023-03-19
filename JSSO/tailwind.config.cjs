@@ -8,6 +8,10 @@ module.exports = {
     extend: {
       fontFamily: {
         Sono: ["sono", "sans-serif"],
+        IBM: ["IBM Plex Mono", "monospace"],
+      },
+      opacity: {
+        5: ".5",
       },
     },
   },
