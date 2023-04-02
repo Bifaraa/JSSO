@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .show-enter {
+  @apply opacity-0;
+}
+.show-enter-active {
+  @apply opacity-100 transition-opacity bg-red-900;
+}
+.show-exit {
+  @apply opacity-100;
+}
+.show-exit-active {
+  @apply opacity-0 transition-opacity;
+}
+}

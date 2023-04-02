@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect } from 'react'
 
 export function Reloj({ visible }) {
   const [horaCompleta, setHoraCompleta] = useState(new Date())
@@ -20,14 +20,14 @@ export function Reloj({ visible }) {
 
   if (visible) {
     return (
-      <section className="flex text-slate-400 ">
-        <div className="">
-          <span className="text-lg">
+      <section className='flex p-2 text-slate-400 '>
+        <div className=''>
+          <span className='text-lg'>
             {hora}:{minuto}:{segundo}
           </span>
         </div>
-        <div className="ml-5">
-          <span className="text-lg">
+        <div className='ml-5'>
+          <span className='text-lg'>
             {año}-{mes}-{dia}
           </span>
         </div>
